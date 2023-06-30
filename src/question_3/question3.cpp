@@ -1,6 +1,8 @@
 #include "question3.h"
 
-bool test_config()
-{
-    return true;
+double get_kinetic_energy(double kg, double vel){
+    
+    double KE = ((kg*(vel * vel))/2);
+
+    return KE;
 }
